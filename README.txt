@@ -5,3 +5,10 @@ Uploaded my site to GitHub pages
 
 I added a weather for Livonia Michigan, and used Open Metro because I ran into problems using the API Key version. 
 
+
+https://berro2424.github.io/PortfolioFinal/index.html
+
+https://github.com/Berro2424/PortfolioFinal
+
+
+
