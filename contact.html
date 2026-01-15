@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mohammed Berro | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Page header and navigation -->
+    <header>
+        <h1>Contact Me</h1>
+
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="weather.html">Weather</a></li>
+        </ul>
+    </nav>
+    
+    </header>
+
+    <main>
+        <!-- Contact information section -->
+        <section>
+            <h2>Get in Touch</h2>
+            <p>
+                If you would like to contact me regarding projects, internships,
+                or collaboration opportunities, feel free to reach out using the
+                methods below.
+            </p>
+
+            <ul>
+              <li><strong>Email:</strong> mberro@student.madonna.edu<br></li>
+                <li><strong>Phone:</strong> (313) 555-0192<br></li>
+                <li><strong>GitHub:</strong> github.com/mohammedberro</li>
+            </ul>
+
+            <img src="images/profile.jpg" alt="Profile image representing Mohammed Berro">
+        </section>
+    <section>
+        <h2>Send a Message</h2>
+
+        <form id="contactForm" novalidate>
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+
+            <p id="errorMessage"></p>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Mohammed Berro</p>
+</footer>
+
+<script src="js/validation.js"></script>
+</body>
+</html>
